@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+.clear {
+  background-image: url(https://images.unsplash.com/photo-1517574150334-6d3578f2cc5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=333&q=80);
+}
+
+.clouds {
+  background-image: url(https://images.unsplash.com/photo-1534088568595-a066f410bcda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=389&q=80);
+}
+
+.rain {
+  background-image: url(https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80);
+}
+
+.snow {
+  background-image: url(https://images.unsplash.com/photo-1517574150334-6d3578f2cc5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=333&q=80);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+Body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Noto Sans JP', sans-serif;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h1:hover .tooltip {
+  opacity: 1;
+  top: 25%;
+}
+
+img {
+  width: 10vw;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.tooltip {
+  color: #fff;
+  background-color: #222;
+  border-radius: 5px;
+  font-size: 15px;
+  left: 44%;
+  opacity: 0;
+  padding: 10px;
+  position: absolute;
+  top: 35%;
+  -webkit-transition: opacity .3s, top .5s;
+  transition: opacity .3s, top .5s;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFrymdL_O7o_h1npQeF9I8wL6HJyl9zWU"></script>
+
+    <title>Meteo API</title>
+</head>
+<body>
+    <section id="app">
+        <h1>
+            <span id="city"></span>
+            <span class="tooltip">Entrez votre ville</span>
+        </h1>
+    
+        <!-- <i class="icon wi wi-day-sunny"></i> -->
+        <img src="" alt="">
+    
+        <h2>
+            <span id="temperature"></span> °C (<span id="description"></span>)
+        </h2>
+    </section>
+    <script src="./src/app.js"></script>
+</body>
+</html>
